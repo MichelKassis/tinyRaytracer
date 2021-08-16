@@ -1,5 +1,7 @@
 # tinyRaytracer
 
+tiny Raytracer in Plain C++ trying to avoid using 3rd party libraries too much.
+
 Based on Ssloy's Github Lessons: https://github.com/ssloy/tinyraytracer
 
 mkdir --parents build && cd build && cmake .. && make && ./tinyraytracer && pnmtopng out.ppm > out.png && open out.png && cd ..
