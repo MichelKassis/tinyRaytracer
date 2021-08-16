@@ -1,6 +1,6 @@
 # tinyRaytracer
 
-tiny Raytracer in Plain C++ trying to avoid using 3rd party libraries too much.
+tiny Raytracer in Plain C++ avoiding use of 3rd party libraries.
 
 mkdir --parents build && cd build && cmake .. && make && ./tinyraytracer && pnmtopng out.ppm > out.png && open out.png && cd ..
 
